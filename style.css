@@ -1,0 +1,77 @@
+/* 
+
+What is FlexBox?
+⌨️ (3:31:35) Creating a Flex Container
+⌨️ (3:34:09) Flex Direction & Wrap
+⌨️ (3:38:26) Content Alignment
+⌨️ (3:44:45) Flex Item Order
+⌨️ (3:49:32) Shrink, Grow, & Basis
+⌨️ (4:00:03) The 'flex' Property
+⌨️ (4:03:21) Item Alignment
+*/
+
+.container {
+  background: rgb(224, 134, 134);
+  margin: 10px;
+  height: 300px;
+
+  display: flex;
+  flex-direction: row;
+  /* flex-wrap: wrap; */
+  justify-content: center;
+  /* justify-content: space-around; */
+  align-items: center;
+}
+
+.container-item {
+  background: rgb(36, 130, 39);
+  color: #fff;
+  border: 2px solid yellow;
+  padding: 2px;
+  font-size: 20px;
+  text-align: center;
+  width: 50px;
+  /* height: 100px; */
+  line-height: 30px;
+  margin: 10px;
+
+  /* flex-grow: 1; */
+  flex-basis: 100px;
+}
+
+/* grid-container */
+
+/* Creating a Grid
+⌨️ (4:13:30) Template Columns & Rows
+⌨️ (4:21:12) Justify & Align Grid
+⌨️ (4:28:10) Row & Column Gaps
+⌨️ (4:33:13) Column & Row Lines
+⌨️ (4:40:46) Grid Area */
+
+.grid-container {
+  background-color: rgb(126, 139, 199);
+  margin: 10px;
+  height: 300px;
+  /* padding: 20px; */
+
+  display: grid;
+  grid-template-columns: auto auto auto;
+  /* grid-column-gap: 287px; */
+
+  grid-template-rows: auto auto;
+  /* grid-row-gap: 140px; */
+  /* grid-gap: 140px 287px; */
+  /* justify-content: space-between;
+  /* align-content: space-between; */
+  /* align-content: center;  */
+}
+
+.grid-item {
+  color: rgb(0, 0, 0);
+  font-size: 25px;
+  text-align: center;
+
+  /* width: 70px; */
+  line-height: 40px;
+  margin: 10px;
+}
